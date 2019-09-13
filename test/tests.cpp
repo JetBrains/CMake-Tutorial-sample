@@ -8,8 +8,7 @@ BOOST_AUTO_TEST_SUITE(my_testsuite)
 
 BOOST_AUTO_TEST_CASE(addvalues_zero)
         {
-                //BOOST_CHECK_EQUAL ((int)(add_values(0,0)) , 0);
-                // BOOST_CHECK_EQUAL (0, 0);
+                BOOST_CHECK_EQUAL (add_values(0,0) , 0);
                 BOOST_CHECK_EQUAL (add_values(-5,5) , 0);
         }
 
