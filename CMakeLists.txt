@@ -22,5 +22,6 @@ target_link_libraries(cmake_testapp LINK_PUBLIC ${TEST_LIBRARY})
 # https://www.jetbrains.com/help/clion/quick-cmake-tutorial.html#boost
 add_subdirectory(test)
 
+# https://www.jetbrains.com/help/clion/ctest-support.html
 enable_testing()
 add_subdirectory(test/ctest)
