@@ -1,7 +1,7 @@
 #define BOOST_TEST_DYN_LINK
 #define BOOST_TEST_MAIN
 #include <boost/test/unit_test.hpp>
-#include "../calc.h"
+#include "../calc_lib.h"
 
 
 BOOST_AUTO_TEST_SUITE(my_testsuite)

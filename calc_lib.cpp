@@ -1,3 +1,6 @@
-//
-// Created by jetbrains on 18/05/2023.
-//
+#include "header_math.h"
+#include "calc_lib.h"
+
+int add_values (int a, int b) {
+    return (a+b);
+}

@@ -12,4 +12,4 @@ add_executable (cmake_testapp_boost tests.cpp)
 target_link_libraries (cmake_testapp_boost ${Boost_LIBRARIES})
 
 #link Boost with code library
-target_link_libraries (cmake_testapp_boost test_library)
+target_link_libraries (cmake_testapp_boost cmake_testapp_lib)
