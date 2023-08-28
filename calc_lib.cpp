@@ -1,4 +1,3 @@
-#include "header_math.h"
 #include "calc_lib.h"
 
 int add_values (int a, int b) {
