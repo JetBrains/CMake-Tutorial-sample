@@ -1,10 +1,10 @@
-cmake_minimum_required(VERSION 3.26)
+cmake_minimum_required(VERSION 3.29)
 project(cmake_testapp)
 
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(cmake_testapp main.cpp general.cpp)
-add_executable(cmake_testapp_calc calc.cpp)
+add_executable(cmake_testapp_calc calc.cpp includes/math/header_math.h)
 add_library(cmake_testapp_lib STATIC calc_lib.cpp calc_lib.h)
 
 target_include_directories (cmake_testapp_lib PUBLIC includes/math)
